@@ -8,5 +8,5 @@
     const content = params.get('content') || "Unable get contents of the clip"
 
     // Redirect to open obsidian
-    window.location.href = `obsidian://new?vault=${vault}&file=${note}&append=true&content=${content}`
+    window.location.href = `obsidian://advanced-uri?daily=true&mode=append&heading=Notes&vault=${vault}&data=${content}`
 </script>
